@@ -1,0 +1,201 @@
+.width-50{
+  width: 50px !important;
+}
+.padding-top{
+  padding-top:10px;
+}
+.row_add td{
+  padding: 25px 20px 25px 20px !important;
+  box-shadow: 0px 0px 2px 1px blue;
+}
+.table-hover .row_add:hover,.row_add{
+  background-color: #ECEDEF;  
+}
+.table .row_add img{
+  width: 150px;
+  height: auto;
+  max-width: 100%;
+}
+.table video{
+  width: 250px;
+  height: auto;
+  max-width: 100%;
+}
+tr.odd.selected, tr.even.selected{
+  background: darkturquoise;
+}
+.table-hover tbody tr.selected:hover {
+  background: darkturquoise;
+}
+.dataTables_empty{
+  text-align: center;
+}
+.centered-modal .modal-dialog{
+  margin: auto;
+}
+
+.card { 
+  margin-bottom: 1rem !important;
+}
+.card-header.no-icon{
+  padding: 1rem 1rem 0rem 1rem !important;
+}
+
+label.custom-control-label{
+  cursor: pointer;
+}
+.btn{
+  cursor: pointer;
+}
+.btn i{
+  /*padding-right:7px;*/
+}
+.btn-sm{
+  padding: 0.5rem !important;
+}
+table td, .table th {
+  padding: .2rem !important;
+}
+.font-16{
+  font-size: 16px !important;
+}
+/*datatable*/
+.dataTables_length{
+  text-align: left !important;
+}
+.dataTables_length select{
+  max-width: 70px;
+}
+
+.dataTables_filter{
+  text-align: right !important;
+}
+.dataTables_filter input{
+  width: calc(100% - 80px) !important;
+}
+div.dataTables_wrapper div.dataTables_filter label, div.dataTables_wrapper div.dataTables_length label {
+  margin-top: 0rem !important;
+  width: 100%;
+}
+
+
+/*end datatable*/
+.navbar-semi-dark {
+  background: none;
+}
+.navbar-container.content{
+  background: #fff;
+}
+.custom-control-label::after, .custom-control-label::before {
+  left: -2rem !important;
+}
+
+.table{
+  width: 100%;
+  /*cursor: pointer;*/
+}
+.table thead th{
+  text-align: center !important;
+  vertical-align: middle;
+  border-bottom-width: 0;
+}
+.dropdown .dropdown-menu .dropdown-item {
+  padding: 5px;
+}
+
+table.table tbody td{
+  word-break: break-word;
+  cursor: pointer;
+  vertical-align: middle;
+}
+hr{
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+input[type="checkbox"]{
+  cursor: pointer;
+}
+.col-padding-5 > [class*="col-"] {
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.row-padding > [class*="col-"] {
+  padding-top: 5px;
+}
+.width-auto{
+  width: auto;
+}
+.modal{
+  z-index: 999999;
+  text-align: center;
+  padding: 0!important;
+}
+.fade {
+  transition: opacity .25s linear;
+}
+.modal-title{
+  text-transform: uppercase;
+  font-weight:bold;
+}
+.modal-header{
+  padding: 0.5rem;
+}
+.modal-body{
+  padding: 0.5rem 1rem !important;
+}
+.modal-dialog {    
+  vertical-align: middle;
+  width: 100% !important;
+}
+.centered-modal.show {
+  display: flex !important;
+}
+@media (max-width: 576px) {
+  .modal-xl {
+    width: 100% !important;
+  }
+  body,input,button,select,.table{
+    font-size: 14px !important;
+  }
+}
+@media (min-width: 576px) {
+  .modal-xl {
+    max-width: 100% !important;
+  }
+  body,input,button,select,.table{
+    font-size: 14px !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .modal-xl {
+    max-width: 100% !important;
+  }
+  body,input,button,select,.table{
+    font-size: 15px !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .modal-xl {
+    max-width: 95% !important;
+  }
+  body,input,button,select,.table{
+    font-size: 15px !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .modal-xl {
+    max-width: 95% !important;
+  }
+  body,input,button,select,.table{
+    font-size: 16px !important;
+  }
+}
+
+
+.card-body {
+  padding: 1rem 1.5rem !important;
+}

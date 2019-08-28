@@ -1,0 +1,39 @@
+<div class="row match-height no-gutters-custom">
+	<div class="col-md-6">
+		<div class="card">
+			<div class="card-header pb-0">
+				<h4 class="card-title">Danh sách ID</h4>
+			</div>
+			<div class="card-content collapse show">
+				<div class="card-body">
+					<textarea id="txt_uid" class="form-control height-300" placeholder="Nhập UID. Mỗi dòng 1 UID" style="resize: none;"></textarea>	
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="col-md-6">
+		<div class="card">
+			<div class="card-header pb-0">
+				<h4 class="card-title">Nhập Token</h4>
+			</div>
+			<div class="card-content collapse show">
+				<div class="card-body">
+					<div>
+						<textarea id="txt_token" class="form-control height-200" placeholder="Nhập Token" style="resize: none;">EAAAAUaZA8jlABAAeEOcjAe3cWzbsta2BQWxYbXLGUMWp038aEIbkFeQR43elA0fcBAzMJIfJQ9tO1BND0LcL3psjDx959g7B1SFr2yv2dobnRNnsCStIs0By6hfPXuU80RIJyV2hkcHDyX71g9OainBt9wN5N0cgZC4AKpBZALsMnr0RWnDDKS0gxDwpksZD</textarea>	
+					</div>
+					<div class="padding-top">
+						<button class="btn btn-sm btn-primary" id="btn_start"><i class="fa fa-play-circle-o"></i> Bắt đầu</button>
+						<button class="btn btn-sm btn-warning hidden" id="btn_stop"><i class="fa fa-stop"></i> Dừng lại</button>
+					</div>
+					<div class="padding-top text-primary">
+						Đang có <font id="number_post_live" class="text-danger">0</font> livetream
+					</div>
+					<div class="padding-top text-primary">
+						Đã quét <font id="number_phone" class="text-danger">0</font> số điện thoại
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<script src="js/javascript/scan_live.js"></script>
